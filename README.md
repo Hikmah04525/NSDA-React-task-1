@@ -21,4 +21,4 @@ This is a minimal React application built with Vite that displays beautifully st
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Hikmah04525/NSDA-React-task-1.git
