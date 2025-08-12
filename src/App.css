@@ -1,0 +1,25 @@
+/* Ensure body fills the screen */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Main app container */
+.app {
+  min-height: 100vh; 
+  width: 100%;       
+  display: flex;
+  flex-direction: column;
+}
+
+/* This is where the main content lives */
+.content {
+  flex: 1;
+  background-color: #f4f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 2rem 1rem;
+}

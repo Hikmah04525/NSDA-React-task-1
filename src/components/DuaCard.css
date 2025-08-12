@@ -1,0 +1,28 @@
+.dua-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 1rem 0;
+    width: 50%;
+    height: auto;
+}
+
+.dua-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 0.5rem;
+    direction: rtl;      /* keep this for proper Arabic flow */
+    text-align: center;  /* center the text horizontally */
+}
+
+.dua-source {
+    font-size: 0.9rem;
+    color: gray;
+    direction: ltr;
+    display: block;
+    margin-top: 10px;
+}

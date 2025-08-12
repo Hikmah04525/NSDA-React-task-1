@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a7ded9;
+  padding: 0.8rem 1.5rem;
+}
+
+.navbar-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.navbar-links li {
+  cursor: pointer;
+}
